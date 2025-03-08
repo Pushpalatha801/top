@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms process site</title>
+</head>
+<body>
+    <!--forms in html
+    <input type="text"
+    <label for="lastName"
+    <select> and <option>
+    <textarea>-->
+        <h1>Enter your details</h1>
+        <form action="">
+            <p>Your name here:<input type="text"></p>   <!--normal process with <p> tag in (input text) attribute in form-->
+            <p>first name :<input type="text"> </p>
+            <p>last name :<input type="text"> </p>
+            
+                
+            <!--here wew are using input tag in label tag-->                        
+            <label for="">first name</label>                                    <!--types="text"-->       
+            <input type="text" >        <br><br>                                                
+            <label for="">tell some thing in some words</label>
+            <input type="text"><br><br>
+            <!--type="number"-->
+        <label for="">Age</label>
+        <input type="number">
+        <br><br>
+        <!--type="daye"-->
+
+        <label for="">Date of birth</label>
+        <input type="date">
+        <br><br>
+        <!--type="password"-->
+        <label for="email">email</label>
+        <input id="email" type="email"  >
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <!--type ="radio" it is used to select one from option-->
+        <!--the <label> tag define a label for many elements.the FOR(for) attribute of the <label>tag should be 
+            equal to the ID(id) attribute of the <input>element bind them tigether..-->
+        <p>Enter your tshirt size</p>
+        <input id="small" name="tshirtsize"type="radio"value="small">
+        <label for="small">small</label>
+        <br>
+        <input id="medium" name="tshirtsize"type="radio"value="medium" >
+        <label for="medium">medium</label>
+        <br>
+        <input id="large" name="tshirtsize"type="radio" value="large" >
+        <label for="large">large</label>
+        <br>
+        <label for="color">Your favorit color</label>
+        <input id="colors" type="color">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="submit">
+        <br>
+        <!--<select> and <option>-->
+<!--the <select> element defines defines a drop-down list:-->
+<label for="car">select your favorit car</label>
+<select name="car" id="car">
+    <option value="Volvo">Volvo</option>
+    <option value="Saab">Saab</option>
+    <option value="Fiat">Fiat</option>
+    <option value="Audi">Audi</option>
+</select>
+<br><br>
+
+<label for="aboutyourself">Tell about your self</label>
+
+<textarea name="selfintroduction" id="aboutyourself" cols="30" rows="5"></textarea>
+        
+
+
+
+
+
+        </form>
+
+        
+</body>
+</html>
